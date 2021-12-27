@@ -21,5 +21,6 @@ then
 fi
 
 echo $T | sudo tee /sys/class/backlight/intel_backlight/brightness >/dev/null
+/home/karan/wrkspc/scripts/shell/refreshdwmbar.sh &
 
 exit 0
